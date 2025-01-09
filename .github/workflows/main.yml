@@ -2,8 +2,8 @@ name: Daily Selenium Test
 
 on:
   schedule:
-    # Runs at 1:05 PM UTC every day
-    - cron: '5 13 * * *'
+    # Runs at 1:10 PM UTC every day
+    - cron: '10 13 * * *'
 
 jobs:
   run-selenium-script:
