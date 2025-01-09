@@ -17,9 +17,7 @@ driver = webdriver.Chrome(service=service, options=options)
 
 # List of servers to test
 servers = [
-    "https://app.certifyme.online/auth/login",
-    "https://my.certifyme.online/auth/login",
-    "https://eu2.certifyme.org/auth/login"
+    "https://app.certifyme.online/auth/login"
 ]
 
 try:
